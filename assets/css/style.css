@@ -8,6 +8,7 @@
   --tertiary-blue: #31A8DD40;
   --primary-gray: #252525;
   --gradient-value: linear-gradient(var(--primary-blue), var(--secondary-blue));
+  --inverse-gradient-value: linear-gradient(var(--secondary-blue), var(--primary-blue));
 }
 
 h1 {
@@ -59,6 +60,17 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  transition: .1s ease-in-out;
+}
+
+button a {
+  text-decoration: none;
+  color: transparent;
+}
+
+button:hover {
+  filter: brightness(.6);
 }
 
 header.banner {
