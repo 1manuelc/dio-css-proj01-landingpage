@@ -149,6 +149,7 @@ section#transform-world {
   padding-left: 10rem;
   align-items: center;
 
+  border-top: .3rem solid var(--primary-blue);
   background-color: #000;
   background-image: url('../images/woman-code.png');
   background-size: cover;
@@ -175,6 +176,8 @@ section#professional-challenges {
 
   background-color: #000;
   color: #fff;
+  border-top: .3rem solid var(--primary-blue);
+
 
   display: flex;
   flex-flow: column;
